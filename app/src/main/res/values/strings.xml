@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="lb_bizCard">Cartão de Visitas</string>
+    <string name="btn_add">Adicionar cartão</string>
+</resources>
