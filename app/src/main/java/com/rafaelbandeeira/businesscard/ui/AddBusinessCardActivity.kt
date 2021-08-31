@@ -12,4 +12,10 @@ class AddBusinessCardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
     }
+
+    private fun insertListeners() {
+        binding.btnClose.setOnClickListener {
+            finish()
+        }
+    }
 }

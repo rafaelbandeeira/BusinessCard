@@ -5,7 +5,8 @@
     <string name="label_add_buz_card">Adicionar Cartão</string>
     <string name="label_nome">Nome</string>
     <string name="label_cargo">Cargo</string>
-    <string name="label_telefone">Telefoe</string>
+    <string name="label_telefone">Telefone</string>
     <string name="label_empresa">Empresa</string>
     <string name="label_salvar">Salvar</string>
+    <string name="label_email">E-mail</string>
 </resources>
