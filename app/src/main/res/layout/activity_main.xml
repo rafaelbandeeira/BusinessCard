@@ -28,4 +28,13 @@
         android:layout_margin="32dp"
         android:contentDescription="@string/btn_add" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/lb_bizCard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_business_card"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
