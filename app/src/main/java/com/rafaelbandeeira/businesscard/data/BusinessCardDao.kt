@@ -1,10 +1,9 @@
 package com.rafaelbandeeira.businesscard.data
 
 import androidx.lifecycle.LiveData
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
+@Dao
 interface BusinessCardDao {
     @Query("SELECT * FROM BusinessCard")
     fun getAll(): LiveData<List<BusinessCard>>
