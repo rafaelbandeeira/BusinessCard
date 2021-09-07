@@ -9,4 +9,7 @@
     <string name="label_empresa">Empresa</string>
     <string name="label_salvar">Salvar</string>
     <string name="label_email">E-mail</string>
+    <string name="label_cor">Cor de Fundo</string>
+    <string name="label_show_success">Cartão salvo com sucesso!</string>
+    <string name="label_share">Compartilhar</string>
 </resources>
